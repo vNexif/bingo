@@ -10,12 +10,6 @@ fluidPage(
     class = "noprint",
     id = "form",
     h1(id = "apptitle", "Bingo card generator"),
-    div(id = "authors",
-        "By", a("Jenny Bryan", href = "https://twitter.com/jennybryan"),
-        "and", a("Dean Attali", href = "http://deanattali.com"),
-        HTML("&bull;"),
-        "Code", a("on GitHub", href = "https://github.com/jennybc/bingo")
-    ),
     selectInput("cardType", NULL,
                 c("Create HTML cards to print" = "html",
                   "Create PDF cards to download" = "pdf")
