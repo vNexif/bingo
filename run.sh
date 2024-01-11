@@ -1,0 +1,1 @@
+docker run -p 8888:8888 --rm $(docker buildx build -q -f bingo.containerfile .)
