@@ -11,5 +11,6 @@ launch <- function() {
   }
   shiny::runApp(system.file("shiny", package = "bingo"),
                 display.mode = "normal",
+                port = 8888,
                 launch.browser = FALSE)
 }
